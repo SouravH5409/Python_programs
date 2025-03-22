@@ -12,15 +12,13 @@ def blackAndWhite(image):
             average = (r + g + b) // 3
             pixels[x, y] = blackPixel if average < 128 else whitePixel
 
-# Load the image
-image_path = r"C:\Users\cenih\OneDrive\Pictures\download (1).png"
+image_path = "path_of_the_image"  #provide the path of the image
 image = Image.open(image_path).convert("RGB")
 
-# Show original image
 print('Close the image to see the black and white image')
 image.show()
 
-# Convert to black and white
+
 blackAndWhite(image)
 
 # Show and save the result
