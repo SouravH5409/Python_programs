@@ -7,12 +7,11 @@ def grayscale(image):
     for y in range(image.height):
         for x in range(image.width):
             r, g, b = pixels[x, y]
-            # Calculate luminance using weighted grayscale formula
+    
             lum = int(r * 0.299 + g * 0.587 + b * 0.114)
             pixels[x, y] = (lum, lum, lum)
 
-# Open and display the image
-image = Image.open(r"C:\Users\cenih\OneDrive\Pictures\download (1).png").convert('RGB')
+image = Image.open("path_of_the_image").convert('RGB') #provide path for the image in raw format or filename
 print('Close the image to see the grayscale image')
 image.show()
 
