@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 x = np.linspace(0, 10, 100)
-y1 = np.sin(x)
-y2 = np.cos(x)
+y1 = np.sin(x)  #for sine wave
+y2 = np.cos(x)  #for cosine wave
 
 plt.figure(figsize=(8, 6))
 plt.plot(x, y1, label="Sine Wave")
