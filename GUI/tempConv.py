@@ -1,14 +1,14 @@
 import tkinter as tk
-
+#to convert from Fahrenheit to Celsius and vice versa
 def fToC():
     try:
         fahrenheit = float(f_entry.get())
-        celsius = (fahrenheit - 32) * 5/9
+        celsius = (fahrenheit - 32) * 5/9 #conversion using teh formula
         c_entry.delete(0, tk.END)
         c_entry.insert(0, f"{celsius:.2f}")
     except ValueError:
         c_entry.delete(0, tk.END)
-        c_entry.insert(0, "Invalid input")
+        c_entry.insert(0, "Invalid input") 
 
 def cToF():
     try:
@@ -18,7 +18,7 @@ def cToF():
         f_entry.insert(0, f"{fahrenheit:.2f}")
     except ValueError:
         f_entry.delete(0, tk.END)
-        f_entry.insert(0, "Invalid input")
+        f_entry.insert(0, "Invalid input") #captures any inavlid input 
 
 root = tk.Tk()
 root.title("Temperature Converter")
