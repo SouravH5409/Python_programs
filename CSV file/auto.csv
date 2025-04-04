@@ -1,0 +1,16 @@
+index,company,body-style,wheel-base,length,engine-type,num-of-cylinders,horsepower,average-mileage,price
+1,Toyota,Sedan,95.7,158,ohc,four,92,27,15000
+2,Toyota,Hatchback,94.5,165,ohc,four,70,30,12000
+3,Ford,SUV,98.4,178,ohcv,six,150,22,28000
+4,BMW,Sedan,101.2,190,dohc,six,250,18,55000
+5,Mercedes,SUV,102.5,195,dohc,six,300,17,65000
+6,Audi,Sedan,100.4,187,dohc,four,220,20,50000
+7,Honda,Hatchback,96.2,162,ohc,four,85,32,14000
+8,Nissan,Sedan,97.8,170,ohc,four,95,25,16000
+9,Hyundai,SUV,99.0,175,ohc,four,130,24,23000
+10,Chevrolet,Sedan,96.8,168,ohv,four,100,26,18000
+11,BMW,SUV,103.2,200,dohc,eight,320,15,75000
+12,Audi,SUV,104.3,202,dohc,six,280,16,70000
+13,Tesla,Sedan,105.0,205,ev,none,400,0,80000
+14,Mercedes,Sedan,102.8,192,dohc,six,270,19,60000
+15,Ford,Hatchback,97.0,166,ohc,four,110,28,17000
