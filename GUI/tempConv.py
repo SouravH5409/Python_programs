@@ -1,5 +1,6 @@
-import tkinter as tk
 #to convert from Fahrenheit to Celsius and vice versa
+
+import tkinter as tk
 def fToC():
     try:
         fahrenheit = float(f_entry.get())
