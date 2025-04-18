@@ -8,7 +8,7 @@ data = [
     [3, "Guido van Rossum", "Netherlands", "Python", 1991]
 ]
 
-# Writing to CSV file
+# Writing into CSV File
 with open("contributors.csv", mode="w", newline="") as file:
     writer = csv.writer(file)
     writer.writerows(data)
